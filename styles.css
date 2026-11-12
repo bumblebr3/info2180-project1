@@ -9,3 +9,98 @@ body {
     max-width: 960px;
     width: 100%;
 }
+header{
+    display: flex;
+    flex-direction: row
+}
+
+header h1{
+    float: left;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+
+nav{
+    float: right;
+    display: flex;
+    flex-direction: row;
+
+}
+
+main{
+    clear: both;
+}
+
+
+.overview-hero .container{
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+.overview-hero-image img{
+    width: 300px;
+}
+
+.learn-about .container img{
+    width: 250px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.stories .container article{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+article img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.newsletter{
+    text-align: center;
+    padding-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    
+}
+
+button{
+    height: 35px;
+}
+
+footer{
+    padding-top:  15px; 
+    padding-bottom: 15px;
+}
